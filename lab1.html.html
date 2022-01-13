@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website</title>
+</head>
+<body style="background-color: grey">
+
+	<head><h1 align="center"><u>Register</u></h1></head>
+
+	<fieldset>
+		<form >
+		<label for="fname">Name</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name" maxlength="25" required><br/><br/> 
+        
+     <label for="mail">Email:</label>
+     <input type="text" id="E-id" name="mail" placeholder="@E-id" minlength="6" autofocus required><br><br>
+      <label for="password">Password:</label>
+     <input type="password" id="password" required><br><br>
+     <label for="category">category:</label>
+
+<select name="category" id="catg" required>
+  <option value="student">student</option>
+  <option value="Employee">Employee</option>
+  <option value="Freelancer" selected>Freelancer</option>
+</select>
+<label for="date">Event date:</label>
+
+<input type="date" id="Event" required><br/>
+
+<input type="radio" id="ticket" name="ticket" value="" required>
+<label>1 Ticket</label><br>
+<input type="radio" id="ticket" name="ticket" value=""  checked>
+<label >2ticket</label>
+<input type="radio"  id="ticket" name="ticket" value="">
+<label>3ticket</label><br/>
+
+<input type="checkbox" id="payment" name="online" value="number" required>
+<label for="online payment"> online payment</label><br><br/>
+
+<label for="Notes">Notes:</label>
+
+<textarea id="Notes" name="NOTE" rows="4" cols="50" placeholder="notes">
+</textarea><br><br>
+    
+
+
+
+  <input type="submit" value="Submit">
+	</form>
+</fieldset>
+
+</body>
+</html>
